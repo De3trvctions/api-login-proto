@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "api-login-proto/login";
+
+import "api-login-proto/common/request.proto";
+import "api-login-proto/common/response.proto";
+
+service ActivityChangeLogService {
+  rpc Login(common.Request) returns (common.Response);
+}
