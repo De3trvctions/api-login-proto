@@ -17,6 +17,7 @@ func main() {
 	gen(
 		"login",
 		"common",
+		"account",
 	)
 }
 
